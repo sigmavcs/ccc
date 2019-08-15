@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "90a2eaf2-fab3-45c6-9c93-1954ebac61ed": {
+        "id": "90a2eaf2-fab3-45c6-9c93-1954ebac61ed",
+        "parent": null,
+        "name": "aaa",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "2f78979e-27dd-4f1e-af02-297885345f69"
+        ],
+        "isRemovable": false,
+        "filePath": "aaa"
+      },
+      "2f78979e-27dd-4f1e-af02-297885345f69": {
+        "id": "2f78979e-27dd-4f1e-af02-297885345f69",
+        "parent": "90a2eaf2-fab3-45c6-9c93-1954ebac61ed",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "aaa/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed!\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "90a2eaf2-fab3-45c6-9c93-1954ebac61ed",
+    "openFiles": [
+      "2f78979e-27dd-4f1e-af02-297885345f69"
+    ],
+    "currentFileId": "2f78979e-27dd-4f1e-af02-297885345f69",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "aaa",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1565861063906
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "aaa",
+      "url": "https://github.com/sigmavcs/ccc"
+    }
+  }
+}
